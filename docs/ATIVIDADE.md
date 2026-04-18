@@ -5,7 +5,11 @@ Este projeto faz parte de um experimento acadêmico para avaliar esforço de com
 
 ## Sua tarefa
 1. Identificar a arquitetura usada no projeto.
+R: Arquitetura em camadas
+
 2. Justificar com base na estrutura do código.
+R: A arquitetura em camadas organiza o codigo em partes com responsabilidades distintas, o projeto possui uma camada para cada responsabilidade, a controller possui os endpoints da aplicação, a model representa a camada de modelo, contendo as entidades, repository representa a camada de persitencia de dados e a service é responsavel pela logica de negocio. 
+
 3. Identificar a classe que deve ser alterada
 4. Implementar a feature de cálculo de descontos no carrinho.
 5. Realizar testes de ponta a ponta para validar a implementação.
